@@ -1,0 +1,22 @@
+{{> header_logged_in}}
+
+<main>
+
+    <div class="thank_you_container">
+        <h2 class="thank_you">YOUR SIGNATURE</h2>
+        <div class="text_container">
+            
+        </div>
+        <div class="counter_text">
+        <p class="thank_you">Total signatures</p>
+        <img class="sig_svg" src={{signature.signature_data}}>
+        <h2 id ="count"class="thank_you" id="signature_count">{{signaturesNumber}}</h2>
+        <a id="signatures_href" href="/signatures">Click here to see who else is involved!</a>
+        {{> forms/form_delete_signature}}
+        </div>
+    </div>  
+
+</main>
+
+{{> footer}}
+<script src="/menu.js"></script>

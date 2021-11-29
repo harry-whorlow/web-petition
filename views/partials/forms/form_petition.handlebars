@@ -1,0 +1,44 @@
+<div class="signature_contianer">
+    <form action="/petition" method="POST" class="form_container_sign">
+
+        <div class="input_container api_key box">
+            <input class="input" name="api_key" placeholder="key" required />
+        </div>
+
+        <div class="input_container signature_box box">
+            <div class="input_container lable_container">
+                <lable id="canvas_placeholder">Signature</lable>
+            </div>
+
+            <div class="input_container">
+
+                <canvas
+                    id="signature-pad"
+                    width="373.33px"
+                    height="50px"
+                ></canvas>
+
+                <input
+                    id="sigimg"
+                    name="signature_data"
+                    type="hidden"
+                    value=""
+                />
+
+            </div>
+
+        </div>
+
+        <div class="input_container submit box">
+            <button
+                id="signature_submit"
+                class="input"
+                type="submit"
+            >Submit</button>
+        </div>
+
+    </form>
+    <div id="clear_container">
+        <button id="clear" class="input">clear</button>
+    </div>
+</div>

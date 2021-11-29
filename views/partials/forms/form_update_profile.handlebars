@@ -1,0 +1,72 @@
+<div class="form_container">
+    <form
+        action="/update_profile"
+        method="POST"
+        class="form_container_update_profile"
+    >
+
+        <div class="input_container first_name update">
+            <input
+                class="input"
+                value="{{first_name}}"
+                name="first_name"
+                placeholder="first name"
+            />
+        </div>
+
+        <div class="input_container last_name update">
+            <input
+                class="input"
+                value="{{last_name}}"
+                name="last_name"
+                placeholder="last name"
+            />
+        </div>
+
+        <div class="input_container email update">
+            <input
+                class="input"
+                value="{{email}}"
+                type="email"
+                name="email"
+                placeholder="email"
+            />
+        </div>
+
+        <div class="input_container age update">
+            <input
+                class="input"
+                type="number"
+                min="0"
+                max="100"
+                value="{{age}}"
+                name="age"
+                placeholder="age"
+            />
+        </div>
+
+        <div class="input_container city update">
+            <input
+                class="input"
+                value="{{city}}"
+                name="city"
+                placeholder="city"
+            />
+        </div>
+
+        <div class="input_container homepage update">
+            <input
+                class="input"
+                value="{{homepage}}"
+                type="url"
+                name="homepage"
+                placeholder="homepage"
+            />
+        </div>
+
+        <div class="input_container submit">
+            <button id="submit" class="input" type="submit">Submit</button>
+        </div>
+
+    </form>
+</div>

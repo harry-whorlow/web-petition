@@ -1,0 +1,22 @@
+{{> header_logged_in}}
+
+<main>
+    <div class="signatures_container">
+        <h2 class="signatures">SIGNATURES</h2>
+        <div class="text_container">
+            <p class="signatures">These awesome people have joined us in our just fight against
+            tyranny.
+            </p>
+        </div>
+
+        <div class="sig_ul">
+            {{#signatures}}
+              {{> signature}}
+            {{/signatures}}
+        </div>    
+        
+    </div>  
+</main>
+
+{{> footer}}
+<script src="/menu.js"></script>

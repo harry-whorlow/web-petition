@@ -1,0 +1,23 @@
+{{> header}}
+<main>
+
+
+    <div class="login_container">
+        <h2 class="login">LOGIN</h2>
+        <div class="text_container login">
+            <p class="login">Please login to your account to continue!</p>
+        </div>
+        {{#if error}}
+        <p class>{{error}}</p>
+        {{/if}}
+        {{> forms/form_login}}
+
+        <div class="register_redirect">
+            <p class="login">Dont have an account?</p>
+            <a class="login" href="/register">Register</a>
+        </div>
+    </div>  
+    
+</main>
+
+{{> footer}}

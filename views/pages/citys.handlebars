@@ -1,0 +1,21 @@
+{{> header_logged_in}}
+
+<main>
+    <div class="signatures_container">
+        <h2 class="signatures">CITYS</h2>
+        <div class="text_container">
+            <p class="signatures">Thease are the results for the requested city
+            </p>
+        </div>
+
+        <div class="sig_ul">
+            {{#signatures}}
+              {{> signature}}
+            {{/signatures}}
+        </div>    
+        
+    </div>  
+</main>
+
+{{> footer}}
+<script src="/menu.js"></script>
