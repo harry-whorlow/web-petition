@@ -1,4 +1,4 @@
-![petition](https://github.com/TheAngryEnglishman/petition/blob/main/petition)
+![petition](https://github.com/TheAngryEnglishman/petition/blob/main/petition.gif)
 
 # Petition
 
